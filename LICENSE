@@ -1,33 +1,6 @@
-WP CoffeeScript by Se7enSky
-=========
-
-Wordpress plugin adding CoffeeScript support.
-Rendering is done using free Se7enSky SAAS Render service using standart fresh Node.js CoffeeScript.
-
-# Installation
-
-1. Install as usual Wordpress plugin.
-2. Chmod 777 for cache directory under installed plugin directory
-
-## Features
-
- - renders CoffeeScript files (*.coffee) to JS files
- - hosts them as JS files (http://host.com/wp-content/themes/se7ensky/somefile.js is actually mapped to http://host.com/wp-content/themes/se7ensky/somefile.coffee)
- - basic caching implemented – re-render *.js file when *.coffee file changed
-
-### ToDo
- - earlier (thus, faster) rendering
-
-### Authors
-
-  - [Se7enSky studio](http://www.se7ensky.com/)
-  - [Ivan Kravchenko](http://github.com/krava)
-
-#### License
-
 (The MIT License)
 
-Copyright (c) 2008-2013 Se7enSky studio &lt;info@se7ensky.com&gt;
+Copyright (c) 2008-2013 Se7enSky studio <info@se7ensky.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
