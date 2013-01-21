@@ -11,7 +11,7 @@
   License file: LICENSE
  */
 
-namespace se7ensky/coffeescript;
+namespace se7ensky\coffeescript;
 
 $cacheRoot = __DIR__ . '/cache';
 
