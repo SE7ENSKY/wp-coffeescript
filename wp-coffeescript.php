@@ -13,7 +13,7 @@
 
 namespace se7ensky\coffeescript;
 
-global CACHE = __DIR__ . '/cache';
+const CACHE = __DIR__ . '/cache';
 
 function pipeRender($url, $source) {
 	$ch = curl_init();
