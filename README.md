@@ -15,9 +15,6 @@ Rendering is done using free Se7enSky SAAS Render service using standart fresh N
  - hosts them as JS files (http://host.com/wp-content/themes/se7ensky/somefile.js is actually mapped to http://host.com/wp-content/themes/se7ensky/somefile.coffee)
  - basic caching implemented – re-render *.js file when *.coffee file changed
 
-### ToDo
- - earlier (thus, faster) rendering
-
 ### Authors
 
   - [Se7enSky studio](http://www.se7ensky.com/)

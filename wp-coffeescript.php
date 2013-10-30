@@ -6,14 +6,12 @@
   Tags: coffeescript, coffee, javascript, js, script, scripting
   Author: Se7enSky studio
   Author URI: http://github.com/Se7enSky
-  Version: 1.1
+  Version: 1.2
   License: The MIT License
   License file: LICENSE
  */
 
 namespace se7ensky\coffeescript;
-
-define('CACHE', __DIR__ . '/cache');
 
 function pipeRender($url, $source) {
 	$ch = curl_init();
@@ -39,7 +37,7 @@ function host() {
 		$name = $matches[1];
 		$srcFile = __DIR__ . '/../../..' . $name . '.coffee';
 		
-		$cachedFile = CACHE . $uri;
+		$cachedFile = __DIR__ . '/cache' . $uri;
 		if (file_exists($srcFile)) {
 			if (!file_exists($cachedFile) || filemtime($cachedFile) < filemtime($srcFile)) {
 				@mkdir(dirname($cachedFile), 0770, true);
